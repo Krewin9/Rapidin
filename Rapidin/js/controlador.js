@@ -73,7 +73,7 @@ var categoriasJSON = [
         nombreCategoria:"Almuerzos",
         descripcion: ".",
         color: "#d5717c",
-        icono: "fas fa-bullhorn",
+        icono: "fas fa-plug",
         empresas: [
             {
                 nombreEmpresa: "Toro Bravo",
@@ -116,7 +116,7 @@ var categoriasJSON = [
         nombreCategoria:"Cenas",
         descripcion:".",
         color:"#d5717c",
-        icono:"fa fa-medkit",
+        icono:"fa fa-gift",
         empresas: [
             {
                 nombreEmpresa: "Coco-Baleada",
@@ -202,7 +202,7 @@ var categoriasJSON = [
         nombreCategoria:"Tickets",
         descripcion:".",
         color:"#d5717c",
-        icono:"fa fa-id-card",
+        icono:"fa fa-calculator",
         empresas:[
             {
                 nombreEmpresa: "BAC Entradas",
