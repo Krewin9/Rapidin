@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+body {
+    padding-top: 5rem;
+    margin-top: 0px;
+}
+.starter-template {
+    padding: 0rem 1.5rem;
+    text-align: center;
+}
+.navbar-background {
+    background-color: #BC1C2C;
+}
+.navbar-color >a {
+    color: white;
+}
+.btn {
+    background-color: #D5717C;
+    border-color: #CC5464;
+    color:white;
+    border-radius: 20px;
+} 
+.btn:active{
+    border-color: #D5717C !;
+}
+.btn:hover{
+    color: white;
+    background-color: #D5717C;
+    border-color: #D5717C;
+}
+.btn-2 {
+    background-color: #D5717C;
+    border-color: #D5717C;
+    color:white;
+    border-radius: 20px;
+}
+.btn-2:active{
+    border-color: #D5717C;
+}
+.btn-2:hover{
+    color: white;
+    background-color: #D5717C;
+    border-color: #D5717C;
+    
+}
+
+.font-1{
+    font-family: 'Candal', sans-serif;
+    font-size: xx-large;
+    padding: 0%;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+.font-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: large;
+}
+.font-3{
+    color:gray;
+    text-decoration: solid;
+}
+.radius{
+    border-radius: 10px;
+}
+.fa-5x{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.col-3-cat{
+    
+    max-width: 23% !important;
+    height: 220px;
+    padding-left: 10px;
+    margin: 20px 0px 0px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.col-5{
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.row{
+    cursor: pointer;
+}

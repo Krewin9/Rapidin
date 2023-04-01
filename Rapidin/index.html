@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rapidin</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css">
+    
+    <script src="https://kit.fontawesome.com/0f61de8c20.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  
+    <nav class="navbar navbar-expand-md navbar-background navbar-color fixed-top">
+
+        <a class="font-1 ml-5 pl-5" style="font-size: xx-large;" href="#">Rapid-in</a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span
+                class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+
+            <span class="navbar-nav mr-auto"></span>
+
+            <form class="form-inline">
+                <select class="form-control mr-sm-3 radius" style="border-radius: 50px;" id="usuarios" onchange="cambiarUsuarios()"></select>
+                <input type="button" class="btn" onclick="mostrarOrdenes()" value="Ver Ordenes">
+            </form>
+
+        </div>
+    </nav>
+
+
+    <main role="main">
+
+        <div class="container">
+            <div class="row" id="saludo" style="margin: 0px; padding: 0px;"></div>
+            <div class="row" id="bienvenida" style="margin: 0px; padding: px ;"></div>
+        </div>
+
+        <div class="starter-template">
+            <div class="container" id="categorias"></div>
+        </div>
+
+    </main>
+
+
+    <div id="empresasModal" class="modal fade bd-example-modal-lg"  tabindex="-1" role="dialog"
+        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header pt-2 pb-1 navbar-background">
+                    <h5 class="modal-title font-1" id="empresasTitulo"></h5>
+                    <button class="btn btn" data-toggle="modal" data-target="#empresaNuevaModal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container" id="empresas"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="productosModal" class="modal fade"  tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body pb-0">
+                    <div class="container">
+                        <div class="row font-3">
+                            <p id="producto" class="font-2" style="color:#BC1C2C"></p>
+                            <p id="descripcion"></p>
+                        </div>
+                        <div class="row font-3" id=cantidad>
+                            Cantidad a solicitar:
+                            <div class="col"><input id="cantidad" type="text" class="form-control"></div>
+                        </div>
+                        <p class="text-right font-3 font-weight-bold mb-0 mt-4" id="precio"></p>
+                    </div>
+                </div>
+                <div class="modal-footer" id="procesar">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ordenesModal" class="modal fade bd-example-modal-xs"  tabindex="-1" role="dialog"
+        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xs">
+            <div class="modal-content">
+                <div class="modal-header pt-2 pb-1 navbar-background">
+                    <h4 class="modal-title font-3" id="usuarioTitulo" style="color: white"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid border rounded" id="ordenes"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador.js"></script>
+
+
+
+
+
+    <script type="text/javascript">
+
+        var iconosVal=["adress-book","eercast","free-code-camp","id-card","thermometer","v-card","user-circle","bath","battery-1",
+                    "bicycle","bullhorn","calculator","circle","code","wrench","medkit","heartbeat","coffee","home","gift","beer",
+                    "motocycle","shopping-cart","mobile","plug","university","umbrella","video-camera","tint","ticket"];
+        var iconosOpt = ["agenda","ojo-nublado","fogata","id","termometro","visa","usuario","ducha","bateria",
+                    "bicicleta","altavoz","calculadora","circulo","codigo","llave","kit-medico","corazon","cafe","hogar","regalo",
+                    "cerveza","moticleta","taco","carrito-de-compras","movil","enchufe","universidad","sombrilla","camara","tinta","ticket"];
+        for(var i=0;i<iconosVal.length;i++){
+            var opcion = document.createElement('option');
+            opcion.text = iconosOpt[i];
+            opcion.value = "fa fa-"+iconosVal[i];
+            document.getElementById("icono").appendChild(opcion);
+        }            
+    </script>
+
+
+
+
+</body>
+
+</html>
