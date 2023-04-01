@@ -51,12 +51,12 @@ form {
   grid-row: 1 / 2;
 }
 
-form.sign-up-form {
+form.crear-form {
   opacity: 0;
   z-index: 1;
 }
 
-form.sign-in-form {
+form.entrar-form {
   z-index: 2;
 }
 
@@ -233,40 +233,40 @@ form.sign-in-form {
 
 /* ANIMATION */
 
-.container.sign-up-mode:before {
+.container.crear-mode:before {
   transform: translate(100%, -50%);
   right: 52%;
 }
 
-.container.sign-up-mode .left-panel .image,
-.container.sign-up-mode .left-panel .content {
+.container.crear-mode .left-panel .image,
+.container.crear-mode .left-panel .content {
   transform: translateX(-800px);
 }
 
-.container.sign-up-mode .signin-signup {
+.container.crear-mode .signin-signup {
   left: 25%;
 }
 
-.container.sign-up-mode form.sign-up-form {
+.container.crear-mode form.crear-form {
   opacity: 1;
   z-index: 2;
 }
 
-.container.sign-up-mode form.sign-in-form {
+.container.crear-mode form.entrar-form {
   opacity: 0;
   z-index: 1;
 }
 
-.container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content {
+.container.crear-mode .right-panel .image,
+.container.crear-mode .right-panel .content {
   transform: translateX(0%);
 }
 
-.container.sign-up-mode .left-panel {
+.container.crear-mode .left-panel {
   pointer-events: none;
 }
 
-.container.sign-up-mode .right-panel {
+.container.crear-mode .right-panel {
   pointer-events: all;
 }
 
@@ -283,7 +283,7 @@ form.sign-in-form {
   }
 
   .signin-signup,
-  .container.sign-up-mode .signin-signup {
+  .container.crear-mode .signin-signup {
     left: 50%;
   }
 
@@ -346,19 +346,19 @@ form.sign-in-form {
     transition: 2s ease-in-out;
   }
 
-  .container.sign-up-mode:before {
+  .container.crear-mode:before {
     transform: translate(-50%, 100%);
     bottom: 32%;
     right: initial;
   }
 
-  .container.sign-up-mode .left-panel .image,
-  .container.sign-up-mode .left-panel .content {
+  .container.crear-mode .left-panel .image,
+  .container.crear-mode .left-panel .content {
     transform: translateY(-300px);
   }
 
-  .container.sign-up-mode .right-panel .image,
-  .container.sign-up-mode .right-panel .content {
+  .container.crear-mode .right-panel .image,
+  .container.crear-mode .right-panel .content {
     transform: translateY(0px);
   }
 
@@ -367,7 +367,7 @@ form.sign-in-form {
     transform: translateY(300px);
   }
 
-  .container.sign-up-mode .signin-signup {
+  .container.crear-mode .signin-signup {
     top: 5%;
     transform: translate(-50%, 0);
   }
@@ -393,7 +393,7 @@ form.sign-in-form {
     left: 50%;
   }
 
-  .container.sign-up-mode:before {
+  .container.crear-mode:before {
     bottom: 28%;
     left: 50%;
   }

@@ -1,11 +1,11 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
+const entrar_btn = document.querySelector("#entrar-btn");
+const crear_btn = document.querySelector("#crear-btn");
 const container = document.querySelector(".container");
 
-sign_up_btn.addEventListener("click", () => {
-  container.classList.add("sign-up-mode");
+crear_btn.addEventListener("click", () => {
+  container.classList.add("crear-mode");
 });
 
-sign_in_btn.addEventListener("click", () => {
-  container.classList.remove("sign-up-mode");
+entrar_btn.addEventListener("click", () => {
+  container.classList.remove("crear-mode");
 });
