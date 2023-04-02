@@ -1,4 +1,4 @@
-const allSideMenu = document.querySelectorAll('#sidebar .side-menu.top li a');
+const allSideMenu = document.querySelectorAll('#barraprincipal .side-menu.top li a');
 
 allSideMenu.forEach(item=> {
 	const li = item.parentElement;
@@ -12,19 +12,12 @@ allSideMenu.forEach(item=> {
 });
 
 
-
-
-// TOGGLE SIDEBAR
 const menuBar = document.querySelector('#content nav .bx.bx-menu');
-const sidebar = document.getElementById('sidebar');
+const barraprincipal = document.getElementById('barraprincipal');
 
 menuBar.addEventListener('click', function () {
-	sidebar.classList.toggle('hide');
+	barraprincipal.classList.toggle('hide');
 })
-
-
-
-
 
 
 
@@ -49,7 +42,7 @@ searchButton.addEventListener('click', function (e) {
 
 
 if(window.innerWidth < 768) {
-	sidebar.classList.add('hide');
+	barraprincipal.classList.add('hide');
 } else if(window.innerWidth > 576) {
 	searchButtonIcon.classList.replace('bx-x', 'bx-search');
 	searchForm.classList.remove('show');
