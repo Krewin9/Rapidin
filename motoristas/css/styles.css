@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+
+}
+
+
+header {
+    background-color: #bd1c2c;
+    color: #fff;
+    padding: 20px;
+
+  }
+
+
+  section{
+    background: linear-gradient(90deg,
+     rgba(189, 28, 44, 1) 0%,
+      rgba(205, 84, 101, 1) 35%,
+       rgba(246, 230, 231, 1) 100%);
+
+  }
+
+
+  h2{
+    text-align: center;
+    color: white;
+    background-color: #dd8c9d transparent;
+    backdrop-filter: blur(15px);
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+    background-color: white;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px;
+    background-color: #bd1c2c;
+    border-radius: 40px;
+    border: none;
+    padding: 8px 16px;
+
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #mapa {
+    height: 500px;
+    width: 100%;
+}
+  

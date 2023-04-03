@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Agrega la biblioteca Leaflet.js -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <!-- Agrega los estilos CSS de Leaflet.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    
+    <script src="https://kit.fontawesome.com/0c01b919bb.js" crossorigin="anonymous"></script>
+
+    <title>Motorista - Pedidos</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <header>
+        <i class="fa-solid fa-truck-fast"></i>
+        <h1>Motorista</h1>
+    </header>
+    
+    <main>
+      <section>
+        <h2>Pedidos a tomar</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Número de pedido</th>
+              <th>Cliente</th>
+              <th>Ubicación</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>Juan Perez</td>
+              <td>Blv. Los Proceres</td>
+              <td><button>Tomar pedido</button></td>
+            </tr>
+            <!-- Agrega más filas para cada pedido -->
+          </tbody>
+        </table>
+      </section>
+      
+      <section>
+        <h2>Pedidos tomados</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Número de pedido</th>
+              <th>Cliente</th>
+              <th>Ubicación</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>002</td>
+              <td>María González</td>
+              <td>Col. Universidad Norte</td>
+              <td><button>Entregar pedido</button></td>
+            </tr>
+            <!-- Agrega más filas para cada pedido -->
+          </tbody>
+        </table>
+      </section>
+      
+      <section>
+        <h2>Pedidos rechazados</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Número de pedido</th>
+              <th>Cliente</th>
+              <th>Ubicación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>003</td>
+              <td>David Hernandez</td>
+              <td>Col. Florencia Norte</td>
+            </tr>
+            <!-- Agrega más filas para cada pedido -->
+          </tbody>
+        </table>
+      </section>
+      
+      <section>
+        <h2>Ubicación</h2>
+
+        <div id="mapa" style="height: 500px;"></div>
+
+        <!-- <div id="map"></div> -->
+
+      </section>
+    </main>
+    
+    <script src="js/controlador.js"></script>
+  </body>
+</html>
