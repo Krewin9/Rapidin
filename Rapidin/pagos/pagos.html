@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pagos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-background navbar-color fixed-top">
+        <i class="fas fa-truck fa-lg" style="color: #efd7d9;"></i>
+        <a class="font-1 ml-5 pl-5" style="font-size: xx-large;" href="#">Rapid-in</a>
+        
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span
+                class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+
+            <span class="navbar-nav mr-auto"></span>
+
+            <form class="form-inline">
+                <select class="form-control mr-sm-3 radius" style="border-radius: 50px;" id="usuarios" onchange="cambiarUsuarios()"></select>
+                <input type="button" class="btn" onclick="mostrarOrdenes()" value="">
+            </form>
+
+        </div>
+    </nav>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Pagos Rapidin</h3>
+                <div class="inputBox">
+                    <span>Nombre Completo :</span>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>Dirección :</span>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>Ciudad :</span>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Municipio :</span>
+                        <input type="text" placeholder="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Codigo Postal :</span>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Información Crediticia</h3>
+
+                <div class="inputBox">
+                    <span>Metodos de Pago :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Nombre :</span>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>Numero Tarjeta :</span>
+                    <input type="number" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>EXP I:</span>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>EXP F :</span>
+                        <input type="number" placeholder="">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Realizar pago" class="submit-btn">
+
+    </form>
+
+
+
+</div>    
+  <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/controlador.js"></script>
+   
+</body>
+</html>
