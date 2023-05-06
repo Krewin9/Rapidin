@@ -15,8 +15,6 @@ app.get("/", (req,res) => {
 app.use(express.json());
 app.use('/api',userRoutes);
 
-
-
 mongoose
 .connect(process.env.MONGODB_URI)
 .then(()=> console.log("Conectado a MONGO DB Atlas"))
