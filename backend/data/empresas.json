@@ -1,0 +1,265 @@
+[
+    {
+        "idEmpresa":1,
+        "nombreEmpresa": "Coco-Baleada",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Huevitos Revueltos",
+                "descripcion": "Huevos Revueltos, Chorizo + refresco",
+                "precio": 49
+            },
+            {
+                "nombreProducto": "Baleada Tipica",
+                "descripcion": "Baleada con Mantequilla y Queso",
+                "precio": 25
+            }
+        ]
+    },
+    {
+        "idEmpresa":2,
+        "nombreEmpresa": "Baleadas Olanchito",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Baleada con Todo",
+                "descripcion": "Huevo, pollo, carne y chorizo",
+                "precio": 100
+            },
+            {
+                "nombreProducto": "Baleada Sencilla",
+                "descripcion": "Baleada con frijoles y mantequilla",
+                "precio": 22
+            }
+        ]
+    },
+    {
+        "idEmpresa":3,
+        "nombreEmpresa": "Toro Bravo",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Carne",
+                "descripcion": "Carne, frijoles, y chismol",
+                "precio": 69
+            },
+            {
+                "nombreProducto": "Sopa de Pollo",
+                "descripcion": "Sopa de Pollo",
+                "precio": 120
+            }
+        ]
+    },
+    {
+        "idEmpresa":4,
+        "nombreEmpresa": "Burger King",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Whopper Jr",
+                "descripcion": "Hamburguesa de Carne y Queso",
+                "precio": 99
+            },
+            {
+                "nombreProducto": "King De Pollo",
+                "descripcion": "Hamburguesa de Pollo",
+                "precio": 120
+            }
+        ]
+    },
+    {
+        "idEmpresa":5,
+        "nombreEmpresa": "Coco-Baleada",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Baleada con Todo",
+                "descripcion": "Huevo, pollo, carne y chorizo",
+                "precio": 100
+            },
+            {
+                "nombreProducto": "Baleada Sencilla",
+                "descripcion": "Baleada con frijoles y mantequilla",
+                "precio": 22
+            }
+        ]
+    },
+    {
+        "idEmpresa":6,
+        "nombreEmpresa": "Baleadas Olanchito",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Baleada con Todo",
+                "descripcion": "Huevo, pollo, carne y chorizo",
+                "precio": 100
+            },
+            {
+                "nombreProducto": "Baleada Sencilla",
+                "descripcion": "Baleada con frijoles y mantequilla",
+                "precio": 22
+            }
+        ]
+    },
+    {
+        "idEmpresa":7,
+        "nombreEmpresa": "Kielsa",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            {
+                "nombreProducto": "Kit de Emergencia",
+                "descripcion": "Primeros Auxilios",
+                "precio": 149.99
+            },
+            {
+                "nombreProducto": "Pruebas Covid",
+                "descripcion": "PCR",
+                "precio": 349.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":8,
+        "nombreEmpresa": "Siman",
+        "imagen":"img/rapidin.png",
+        "productos":[
+           
+            {
+                "nombreProducto": "Kit de Emergencia",
+                "descripcion": "Primeros Auxilios",
+                "precio": 149.99
+            },
+            {
+                "nombreProducto": "Pruebas Covid",
+                "descripcion": "PCR",
+                "precio": 349.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":9,
+        "nombreEmpresa": "BAC Entradas",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            
+            {
+                "nombreProducto": "Olimpia vs Motagua",
+                "descripcion": "Sol",
+                "precio": 149.99
+            },
+            {
+                "nombreProducto": "Olimpia vs Motagua",
+                "descripcion": "Palco",
+                "precio": 449.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":10,
+        "nombreEmpresa": "Todo Ticket",
+        "imagen":"img/rapidin.png",
+        "productos":[
+           
+            {
+                "nombreProducto": "Arcangel",
+                "descripcion": "Preferencial",
+                "precio": 849.99
+            },
+            {
+                "nombreProducto": "Ozuna",
+                "descripcion": "VIP 1",
+                "precio": 749.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":11,
+        "nombreEmpresa": "Cerveria Hondureña",
+        "imagen":"img/rapidin.png",
+        "productos":[
+          
+            {
+                "nombreProducto": "Salva Vida",
+                "descripcion": ".",
+                "precio": 69.99
+            },
+            {
+                "nombreProducto": "Imperial",
+                "descripcion": ".",
+                "precio": 49.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":12,
+        "nombreEmpresa": "Copan Dry",
+        "imagen":"img/rapidin.png",
+        "productos":[
+            
+            {
+                "nombreProducto": "Ginger Dry",
+                "descripcion": ".",
+                "precio": 149.99
+            },
+            {
+                "nombreProducto": "Beer Artesanal",
+                "descripcion": ".",
+                "precio": 49.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":13,
+        "nombreEmpresa": "AMDC",
+        "imagen":"img/rapidin.png",
+        "productos":[
+           
+            {
+                "nombreProducto": "Impuestos",
+                "descripcion": ".",
+                "precio": 1149.99
+            },
+            {
+                "nombreProducto": "Impuestos",
+                "descripcion": ".",
+                "precio": 2249.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":14,
+        "nombreEmpresa": "ENEE",
+        "imagen":"img/rapidin.png",
+        "productos":[
+           
+            {
+                "nombreProducto": "Energia",
+                "descripcion": ".",
+                "precio": 2249.99
+            },
+            {
+                "nombreProducto": "Cambio de Luces",
+                "descripcion": ".",
+                "precio": 2149.99
+            }
+        ]
+    },
+    {
+        "idEmpresa":15,
+        "nombreEmpresa": "Rapidin-Auto",
+        "imagen":"img/rapidin.png",
+        "productos":[
+          
+            {
+                "nombreProducto": "Taxi",
+                "descripcion": ".",
+                "precio": 200
+            },
+            {
+                "nombreProducto": "Encomienda",
+                "descripcion": ".",
+                "precio": 149.99
+            }
+        ]
+    }
+]

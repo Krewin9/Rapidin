@@ -3,7 +3,7 @@ const userSchema =  require("../models/usuarios")
 
 const router = express.Router();
 
-
+ 
 //CREAR
 router.post("/usuario", (req,res)=>{
 

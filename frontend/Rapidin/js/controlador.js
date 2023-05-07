@@ -305,7 +305,7 @@ var categoriasJSON = [
                         descripcion: ".",
                         precio: 549
                     },
-                ]
+                ] 
             },
             {
                 nombreEmpresa: "ENEE",

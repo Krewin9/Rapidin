@@ -1,0 +1,49 @@
+[{
+    "nombreCategoria": "Desayunos",
+    "descripcion": "Un cafelito?",
+    "color": "#d5717c",
+    "icono": "fa fa-coffee",
+    "empresas": [1, 2]
+}, {
+    "nombreCategoria": "Almuerzos",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fas fa-plug",
+    "empresas": [3,4]
+}, {
+    "nombreCategoria": "Cenas",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fa fa-gift",
+    "empresas": [5, 6]
+}, {
+    "nombreCategoria": "Farmacias",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fa fa-medkit",
+    "empresas": [7,8]
+}, {
+    "nombreCategoria": "Tickets",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fa fa-calculator",
+    "empresas": [9,10]
+}, {
+    "nombreCategoria": "Bebidas",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fa fa-beer",
+    "empresas": [11,12]
+}, {
+    "nombreCategoria": "Pagos",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fa fa-id-card",
+    "empresas": [13,14]
+}, {
+    "nombreCategoria": "Mandaditos",
+    "descripcion": "",
+    "color": "#d5717c",
+    "icono": "fas fa-motorcycle",
+    "empresas": [15,16]
+}]

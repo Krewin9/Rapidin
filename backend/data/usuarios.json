@@ -1,0 +1,27 @@
+[
+    {
+       
+        "nombre": "Krewin",
+        "apellido": "Murillo",
+        "ordenes": [
+            {
+                "nombreProducto": "Baleada Tipica",
+                "descripcion": "Baleada con Mantequilla y Queso",
+                "precio": 49
+            }
+           
+        ]
+    },
+    { 
+        
+        "nombre": "Carlos",
+        "apellido": "Rios",
+        "ordenes": [
+            {
+                "nombreProducto": "Baleada Tipica",
+                "descripcion": "Baleada con Mantequilla y Queso",
+                "precio": 49
+            }
+        ]
+    }
+]
